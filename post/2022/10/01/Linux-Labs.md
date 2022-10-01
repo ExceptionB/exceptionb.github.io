@@ -5,29 +5,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Archive: 2022/8</title>
+    <title>Linux-Labs - ExceptionB`s Small Room</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Blog,"> 
-    
+    <meta name="description" content="直接ssh连接
+1ssh -p &amp;lt;port&amp;gt; root@&amp;lt;ipaddr&amp;gt;
+
+然后
+1cat /flag.txt
+
+解决了…
+"> 
     <meta name="author" content="ExceptionB Ch. (aka 鲤唐可可)"> 
-    <link rel="alternative" href="atom.xml" title="太美丽啦，鲤唐！" type="application/atom+xml"> 
+    <link rel="alternative" href="atom.xml" title="ExceptionB`s Small Room" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
     
     
     
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Archive: 2022/8"/>
+    <meta name="twitter:title" content="Linux-Labs - ExceptionB`s Small Room"/>
+    <meta name="twitter:description" content="直接ssh连接
+1ssh -p &amp;lt;port&amp;gt; root@&amp;lt;ipaddr&amp;gt;
+
+然后
+1cat /flag.txt
+
+解决了…
+"/>
     
     
     
     
-    
-    <meta property="og:site_name" content="太美丽啦，鲤唐！"/>
+    <meta property="og:site_name" content="ExceptionB`s Small Room"/>
     <meta property="og:type" content="object"/>
-    <meta property="og:title" content="Archive: 2022/8"/>
-    
+    <meta property="og:title" content="Linux-Labs - ExceptionB`s Small Room"/>
+    <meta property="og:description" content="直接ssh连接
+1ssh -p &amp;lt;port&amp;gt; root@&amp;lt;ipaddr&amp;gt;
+
+然后
+1cat /flag.txt
+
+解决了…
+"/>
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -38,59 +59,88 @@
 <meta name="generator" content="Hexo 5.4.2"></head>
 
 <body class="loading">
-    <span id="config-title" style="display:none">太美丽啦，鲤唐！</span>
+    <span id="config-title" style="display:none">ExceptionB`s Small Room</span>
     <div id="loader"></div>
-    <div id="single" class="page">
-    <div id="top">
-        <a class="iconfont icon-left image-icon" href="javascript:history.back()"></a>
-    </div>
-    <div class="section">
-        <div class="article">
-            <div class="main">
-                <div class="content">
-                    <div class="timeline">
-                      <h2 class="timeline-title">归档: 5篇</h2><hr>
-                      
-                      
-                        
-                          <h3 class="timeline-subtitle">2022</h3>
-                        
-                        <div class="timeline-item">
-                          <time>2022-10-01</time>
-                          <a target="_self" href="/Sat%20Oct%2001%202022%2017:00:36%20GMT+0800/Crypto-WriteUps.md">Crypto-WriteUps (BuuCTF)</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2022-10-01</time>
-                          <a target="_self" href="/Sat%20Oct%2001%202022%2016:56:52%20GMT+0800/hello-world.md">Hello World</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2022-08-15</time>
-                          <a target="_self" href="/Mon%20Aug%2015%202022%2020:27:49%20GMT+0800/20220815/BUU-LFI-COURSE-1.md">BUU-LFI-COURSE-1</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2022-08-15</time>
-                          <a target="_self" href="/Mon%20Aug%2015%202022%2020:27:34%20GMT+0800/20220815/Linux-Labs.md">Linux-Labs</a>
-                        </div>
-                      
-                        
-                        <div class="timeline-item">
-                          <time>2022-08-15</time>
-                          <a target="_self" href="/Mon%20Aug%2015%202022%2020:27:23%20GMT+0800/20220815/Upload-Labs-Linux.md">Upload-Labs-Linux</a>
-                        </div>
-                      
-                    </div>
-                </div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://ray.akarin.tk"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">Linux-Labs</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
             </div>
+            <div id="qr"></div>
         </div>
     </div>
+    <div class="scrollbar"></div>
 </div>
 
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">Linux-Labs</h1>
+        <div class="stuff">
+            <span>十月 01, 2022</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/ctf/" rel="tag">ctf</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p>直接ssh连接</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -p &lt;port&gt; root@&lt;ipaddr&gt;</span><br></pre></td></tr></table></figure>
+
+<p>然后</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /flag.txt</span><br></pre></td></tr></table></figure>
+
+<p>解决了…</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
+                        
+                    
+                        
+                            <li title="1" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="false"
+        data-ae="false"
+        data-ci=""
+        data-cs=""
+        data-r=""
+        data-o=""
+        data-a=""
+        data-d="false"
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class="side">
+            
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
 </body>
 
 

